@@ -19,6 +19,9 @@ public class Cliente implements Serializable{
 	private String nome;
 	private String email;
 	
+//	@JoinColumn(name = "conta_id")
+//	@OneToOne(mappedBy = "conta")
+	private Conta conta;
 	
 	public Cliente () {
 		
